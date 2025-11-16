@@ -1,23 +1,12 @@
 export default function Navbar() {
+  const backgroundColor = "#ffffff"
+  const textColor = "#000000"
+
   return (
-    <nav
-      style={{
-        padding: 20,
-        background: "#f0f0f0",
-        color: "#000",
-        borderBottom: "1px solid #ddd"
-      }}
-    >
-      <div
-        style={{
-          fontWeight: "700",
-          fontFamily: "Poppins, sans-serif",
-          textAlign: "center",
-          fontSize: 22
-        }}
-      >
+    <nav style={{ padding: 20, background: backgroundColor, color: textColor }}>
+      <center style={{ fontWeight: 700, fontFamily: "Poppins, sans-serif" }}>
         TROLO
-      </div>
+      </center>
     </nav>
-  );
+  )
 }
